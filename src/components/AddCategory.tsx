@@ -38,7 +38,8 @@ export const AddCategory = ( { onNewCategory }: Props) => {
         type = 'text'
         placeholder = 'Buscar Gifs'
         value = { inputValue }
-        onChange = { onInputChange }    // onChange = { event => onInputChange(event) }
+        // onChange = { event => onInputChange(event) }
+        onChange = { onInputChange }
       />
     </form>
   )
